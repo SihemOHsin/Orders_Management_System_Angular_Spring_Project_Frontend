@@ -1,6 +1,44 @@
-# Frontend
+# Command Management System Application
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+This is a Command Management System application built using Angular for the frontend and Spring Boot for the backend.
+
+## Frontend Details:
+
+- Angular CLI Version: 11.2.9
+- Node Version: 14.21.3
+
+## Frontend Setup:
+
+### Prerequisites:
+
+Make sure you have the following installed:
+
+- Node.js: [Download Node.js](https://nodejs.org/)
+- Angular CLI: Install using `npm install -g @angular/cli`
+
+### Frontend Commands:
+
+1. **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+
+2. **Additional Libraries:**
+    ```bash
+    npm i ngx-ui-loader
+    npm i jwt-decode
+    npm i file-saver @types/file-saver
+    ```
+
+   These libraries are used for UI loading, JWT decoding, and file saving functionality.
+
+### Running the Application:
+
+Use the following command to run the Angular application:
+
+```bash
+ng serve
+
 
 ## Development server
 
